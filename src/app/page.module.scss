@@ -1,0 +1,52 @@
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("/wallpaper.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 30px;
+
+  &__title {
+    font-size: 2.5em;
+  }
+
+  &__desc {
+    margin-top: 20px;
+    max-width: 400px;
+    font-size: 1.5em;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px solid #fff;
+    padding: 8px 15px;
+    cursor: pointer;
+
+    &_text {
+      font-size: 1.4em;
+      font-weight: bold;
+    }
+
+    &_img {
+      width: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cont {
+    justify-content: flex-end;
+    background-position: 70% 50%;
+    &__desc {
+      font-size: 1.3em;
+    }
+  }
+}
