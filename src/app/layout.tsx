@@ -1,5 +1,3 @@
-"use client"
-
 import { usePathname } from 'next/navigation'
 import { Header } from '../components/header/Header'
 import '../sass/index.scss'
