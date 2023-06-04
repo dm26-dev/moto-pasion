@@ -1,5 +1,3 @@
-"use client"
-
 import { getMotorcycleByBrand } from '@/helpers/getMotorcycleByBrand'
 import { ListCards } from '@/components/listCard/ListCards'
 import st from './page.module.scss'
