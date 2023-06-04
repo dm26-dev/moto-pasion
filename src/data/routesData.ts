@@ -13,9 +13,6 @@ export const routesData: RoutesApp[] = [{
     title: 'Kawasaki',
     url: '/kawasaki'
 }, {
-    title: 'Auteco',
-    url: '/auteco'
-}, {
     title: 'Search',
     url: '/search'
 }]

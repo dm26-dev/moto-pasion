@@ -1,12 +1,17 @@
+import { getMotorcycleByBrand } from '@/helpers/getMotorcycleByBrand'
 import { ListCards } from '@/components/listCard/ListCards'
+import st from './page.module.scss'
 
-const page = () => {
+const Page = () => {
+
+  const motorcycles = getMotorcycleByBrand('ktm')
+
   return (
-    <div >
+    <div className={st.cont}>
       <h2>Ktm Motos</h2>
-      <ListCards brand='ktm' />
+      <ListCards motorcycles={motorcycles} />
     </div>
   )
 }
 
-export default page
+export default Page

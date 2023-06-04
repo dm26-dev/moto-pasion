@@ -3,7 +3,7 @@ import { Motorcycle } from "@/interfaces/Motorcycle"
 
 export const getMotorcycleByBrand = (brand: string): Motorcycle[] => {
 
-    const acceptedBrands: string[] = ["honda", "ktm", "yamaha"]
+    const acceptedBrands: string[] = ["honda", "ktm", "yamaha", "kawasaki"]
 
     const motorcycles: Motorcycle[] = motosDB.filter(mt => mt.brand === brand)
 

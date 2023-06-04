@@ -3,7 +3,9 @@ export interface Motorcycle {
     brand: string,
     title: string,
     image: string,
+    cylinder: string,
     torque: string,
     power: string,
-    weight: string
+    weight: string,
+    price: string,
 }

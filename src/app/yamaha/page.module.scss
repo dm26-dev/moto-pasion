@@ -1,0 +1,11 @@
+.cont {
+  margin-top: 70px;
+  padding: 20px 40px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 800px) {
+  .cont {
+    padding: 20px;
+  }
+}

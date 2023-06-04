@@ -1,16 +1,17 @@
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-
+.cont {
+  margin-top: 70px;
+  padding: 20px 40px;
+  
   & > div {
     width: 30%;
   }
 }
 
+/* MEDIA QUERIES */
 @media screen and (max-width: 800px) {
-  .container {
+  .cont {
+    padding: 20px;
+
     & > div {
       width: 45%;
     }
@@ -18,7 +19,9 @@
 }
 
 @media screen and (max-width: 500px) {
-  .container {
+  .cont {
+    padding: 20px;
+
     & > div {
       width: 100%;
     }

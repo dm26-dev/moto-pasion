@@ -3,7 +3,7 @@
 import { useRouter } from 'next/navigation'
 import st from './page.module.scss'
 
-const page = () => {
+const Page = () => {
 
   const router = useRouter()
   const redirectKtm = () => router.push('/ktm')
@@ -25,4 +25,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

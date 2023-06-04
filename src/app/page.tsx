@@ -1,4 +1,3 @@
-"use client"
-
-const page = () => <div>Home</div>
-export default page
+import Home from './home/page'
+const Page = () => <Home />
+export default Page
